@@ -6,5 +6,6 @@ This script will unzip a file in PowerShell 4.0 without the need to update the s
 
 $shellApplication = new-object -com shell.application
 $zipPackage = $shellApplication.NameSpace($args[0])
+New-Item -Path $args[1] -ItemType directory -Force
 $destinationFolder = $shellApplication.NameSpace($args[1])
 $destinationFolder.CopyHere($zipPackage.Items())
