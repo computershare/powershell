@@ -12,7 +12,7 @@ Configuration Utilities
 
         <# Free open source tool for editing text and script files with syntax highlighting (better than Windows Notepad) 
          # Note SOE developer image already contains UltraEdit #>
-        cChocoPackageInstaller greenshot 
+        cChocoPackageInstaller notepadplusplus 
         { 
             Name = "notepadplusplus" 
             DependsOn = "[cChocoInstaller]installChoco" 
