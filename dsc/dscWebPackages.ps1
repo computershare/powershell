@@ -1,3 +1,5 @@
+Install-Module -Name cChoco
+
 Configuration WebTools 
 { 
 
