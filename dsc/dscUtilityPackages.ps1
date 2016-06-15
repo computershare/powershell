@@ -1,4 +1,4 @@
-Configuration SonarQube 
+Configuration Utilities 
 { 
 
     Import-DscResource -ModuleName cChoco 
@@ -36,5 +36,5 @@ Configuration SonarQube
     }
 }
 
-SonarQube
-Start-DscConfiguration SonarQube -Wait -Verbose
+Utilities
+Start-DscConfiguration Utilities -Wait -Verbose
