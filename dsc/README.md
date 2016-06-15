@@ -9,6 +9,17 @@ Just open the .ps1 file on the local machine to install and configure the softwa
 
 The configurations may be later adapted to be pushed to remote machines or to be remotely pulled from a DSC pull server.
 
+Most of the software packages contained in the configurations are obtained from Chocolatey, a community driven repository of common software packages. You can install a wide range of software by entering a command prompt or PowerShell session
+````powershell
+choco install 7zip
+choco install firefox
+````
+You can also bulk update ALL your Chocolatey installed software to latest versions using one command
+````powershell
+choco update all -y
+````
+It's magic! https://chocolatey.org/docs/why#what-is-chocolatey
+
 ##Installing PowerShell Desired State Configuration
 DSC is possible with PowerShell 4.x but much easier to author and manage with PowerShell 5.x
 You can find your PowerShell version by entering 
