@@ -37,7 +37,8 @@ Configuration WebTools
             DependsOn = "[cChocoInstaller]installChoco" 
         } 
 
-        <# To do - Pact a proxy tool for consumer driven contract tests between microservices #>
+        <# To do - Pact a proxy tool for consumer driven contract tests between microservices 
+         #  install the .NET version using Install-Package PactNet  in the VS library package manager#>
         <# To do - Diffy a proxy tool for regression testing updates to microservices #>
 
     }
