@@ -28,3 +28,9 @@ $PSVersionTable.PSVersion
 ````
 and can upgrade to PowerShell 5.x using the script 
 https://github.com/computershare/powershell/blob/master/InstallPowerShell5.ps1
+
+##Azure DSC Overview
+* Add any dependency DSC resource modules to the Azure automation account Assets using the Azure portal.
+* Upload local configuration file to an Azure automation account using the Azure portal.
+* Use the Azure portal to 'compile' the configuration - this publishes the configuration to Azure DSC pull server
+* Use the Azure portal to onboard a new virtual machine node or select an existing virtual machine.
